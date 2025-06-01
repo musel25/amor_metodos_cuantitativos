@@ -175,7 +175,7 @@ plt.grid(axis='y', alpha=0.3, linestyle='--')
 plt.tight_layout()
 
 # Guardar la gráfica
-output_dir = "../resultados"
+output_dir = "../figs"
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
