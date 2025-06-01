@@ -1,10 +1,5 @@
 # Etapa 5 – Conclusiones e Insights
-**Proyecto:** Influencia de variables musicales sobre la Ansiedad  
-**Autor:** Alessa Marie Tabares Pardo  
-**Curso:** Métodos Cuantitativos  
-**Fecha:** 1 junio 2025
 
----
 
 ## Objetivo Inicial Revisitado
 

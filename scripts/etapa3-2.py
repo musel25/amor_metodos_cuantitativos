@@ -208,11 +208,11 @@ def discretize_to_terciles(array_continuo):
     return categorias
 
 # Crear carpeta para guardar imágenes de las matrices de confusión
-figs_dir = os.path.join(output_dir, "figuras_confusion")
+figs_dir = os.path.join(output_dir, "../figs/figuras_confusion")
 os.makedirs(figs_dir, exist_ok=True)
 
 # Seleccionar los dos modelos con menor MAE
-mejores_modelos = pd.DataFrame(resultados).sort_values("MAE").head(2)["Modelo"].tolist()
+mejores_modelos = pd.DataFrame(resultados).sort_values("MAE")["Modelo"].tolist()
 
 for nombre in mejores_modelos:
     best_model = saved_models[nombre]
